@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Success page",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\t\tsearch_my_orders: () => {\n\t\t\treturn(select_work_orders.data.filter(user => user.customer_email==(appsmith.user.email)))\n\t}\n\t}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Success page_JSObject1",
+  "deleted": false,
+  "gitSyncId": "63a42c0a095e805e0c9218da_63a42c17095e805e0c921926"
+}

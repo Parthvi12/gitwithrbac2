@@ -1,0 +1,25 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\tmyVar1: [],\n\tmyVar2: {},\n\tsearch: () => {\n\t\tif(Select2.selectedOptionValue.length==0){\n\t\t\treturn select_work_orders.data\n\t\t}\n\t\telse{\n\t\t\treturn(select_work_orders.data.filter(user => user.agent==(Select2.selectedOptionLabel)))\n\t\t}\n\t}\n}",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Admin_JSObject1",
+  "deleted": false,
+  "gitSyncId": "63a42c0a095e805e0c9218da_63a42c17095e805e0c921924"
+}
